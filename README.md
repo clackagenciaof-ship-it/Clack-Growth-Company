@@ -1,22 +1,40 @@
 # Clack Growth Company
 
-Site institucional one-page da Clack Growth Company, construída em Next.js com foco em apresentação comercial, método proprietário e geração de autoridade.
+Site institucional one-page da Clack Growth Company, construída em Next.js com foco em provedores de internet (ISPs) e empresas que buscam crescimento previsível.
+
+## Posicionamento
+
+A Clack é uma Growth Company especializada em transformar marketing, comercial, pessoas e indicadores em crescimento mensurável.
+
+## Público
+
+- Provedores de internet (ISPs)
+- Operadoras regionais
+- Empresas de telecom
+- Negócios em expansão
+- Empresas B2B que precisam de previsibilidade comercial
 
 ## Seções
 
-- Hero com CTA duplo
-- O novo cenário
-- Quem somos
-- Método Growth 360°
-- Como o método funciona
-- O que entregamos
-- Especialidades
-- Resultados
-- Por que o método funciona
-- Plano de crescimento
-- Experiência
-- A jornada
-- Manifesto
+1. Hero
+2. O novo cenário
+3. Quem somos
+4. Método Growth 360°
+5. Como o método funciona
+6. O que entregamos
+7. Especialidades
+8. Resultados
+9. Por que o método funciona
+10. Plano de crescimento
+11. Experiência
+12. Jornada
+13. Manifesto
+
+## CTAs
+
+- CTA principal: Conhecer o Método
+- CTA secundário: Solicitar Diagnóstico Estratégico
+- CTA de fechamento: Falar com um especialista
 
 ## Stack
 
@@ -47,4 +65,4 @@ npm start
 
 ## Observação
 
-O layout foi pensado para uma experiência de alto impacto visual, com fundo escuro, identidade roxo/laranja e foco no Método Growth 360°.
+O layout foi pensado para uma experiência premium, com fundo roxo institucional, destaques em laranja e foco total em crescimento para ISPs e empresas em expansão.
