@@ -20,9 +20,18 @@ const pillars = [
 ];
 
 const plans = [
-  { name: 'Growth Start', price: 'R$ 1.599/mês', desc: 'Estruturação de presença, posicionamento e rotina comercial.' },
-  { name: 'Growth Performance', price: 'R$ 2.999/mês', desc: 'Geração de demanda, conversão e fortalecimento do time.' },
-  { name: 'Growth 360°', price: 'R$ 4.499/mês', desc: 'Crescimento completo com método, diagnóstico e acompanhamento contínuo.' },
+  {
+    name: 'Growth Start',
+    desc: 'Ideal para empresas que desejam estruturar posicionamento, comunicação e iniciar um processo consistente de crescimento.',
+  },
+  {
+    name: 'Growth Performance',
+    desc: 'Para operações que já possuem base comercial e querem acelerar geração de demanda, conversão e previsibilidade.',
+  },
+  {
+    name: 'Growth 360°',
+    desc: 'A solução completa da Clack, integrando estratégia, marketing, comercial, pessoas e indicadores para escalar com método.',
+  },
 ];
 
 export default function Page() {
@@ -111,12 +120,12 @@ export default function Page() {
 
       <section className="section">
         <div className="container">
-          <span className="eyebrow">10. PLANO DE CRESCIMENTO</span>
+          <span className="eyebrow">Planos de Crescimento</span>
+          <h2>Escolha como acelerar sua empresa</h2>
           <div className="grid pricing" style={{ marginTop: 28 }}>
             {plans.map((plan) => (
               <div className="card" key={plan.name}>
                 <h3 style={{ fontSize: 28, marginTop: 0 }}>{plan.name}</h3>
-                <div className="price">{plan.price}</div>
                 <p className="lead" style={{ fontSize: 18 }}>{plan.desc}</p>
               </div>
             ))}
